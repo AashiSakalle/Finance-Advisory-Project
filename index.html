@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Advisory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>FINWISDOM</h1>
+      <p>Your guide to savings, investments, and retirement planning</p>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <h2>Get Financial Advice</h2>
+        <form id="advice-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="investment">Investment Amount (₹)</label>
+          <input type="number" id="investment" name="investment" required />
+
+          <label for="risk">How comfortable are you with risk?</label>
+          <select id="risk" name="risk" required>
+            <option value="low">Low</option>
+            <option value="moderate">Moderate</option>
+            <option value="high">High</option>
+          </select>
+
+          <label for="goals">What is your primary investment goal?</label>
+          <input type="radio" id="retirement" name="goal" value="retirement" required>
+          <label for="retirement">Saving for Retirement</label>
+          <input type="radio" id="growth" name="goal" value="growth">
+          <label for="growth">Long-Term Growth</label>
+          <input type="radio" id="short-term" name="goal" value="short-term">
+          <label for="short-term">Short-Term Gains</label>
+
+          <center><button type="submit">Get Advice</button></center>
+        </form>
+      </section>
+
+      <section class="result-section">
+        <h2>Advice Results</h2>
+        <div id="result"></div>
+        <div id="sentiment-result"></div> <!-- This will show sentiment analysis -->
+      </section>
+    </main>
+
+    <footer>
+      <p>Finance Advisory © 2024</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- basicccccccccccc -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Advisory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Finance Advisory</h1>
+      <p>Your guide to savings, investments, and retirement planning</p>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <h2>Get Financial Advice</h2>
+        <form id="advice-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="investment">Investment Amount ($)</label>
+          <input type="number" id="investment" name="investment" required />
+
+          <button type="submit">Get Advice</button>
+        </form>
+      </section>
+
+      <section class="result-section">
+        <h2>Advice Results</h2>
+        <div id="result"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Finance Advisory © 2024</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html> -->
+
+
+
