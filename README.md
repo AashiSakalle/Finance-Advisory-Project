@@ -62,6 +62,37 @@ The advice text undergoes sentiment analysis to classify its tone as positive, n
 4. Database Storage
 All user inputs and corresponding generated advice are securely stored in the MySQL database for record-keeping and potential future use.
 
+ Installation Guide
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/financial-advisory-system.git
+cd financial-advisory-system
+Install server dependencies
+
+bash
+Copy
+Edit
+npm install
+Set up MySQL Database
+
+Create a database.
+
+Configure your database connection settings (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) in an .env file or configuration file.
+
+Run the Application
+
+bash
+Copy
+Edit
+npm start
+Access the System
+
+Open your browser and go to: http://localhost:3000
+
+
 🧑‍💻 Contributors
 Aashi Sakalle – Developer & Designer
 
