@@ -15,6 +15,8 @@ Leverage technology to provide accessible and personalized financial advice.
 Promote financial literacy and smarter decision-making through AI-powered suggestions.
 
 -> Key Features
+
+
 📋 User Data Collection: Users fill a simple form with their personal information, financial goals, risk profile, and investment amount.
 
 🧠 Automated Financial Advice Generation: Tailored investment strategies such as stocks, bonds, or mutual funds are recommended based on user input.
@@ -29,10 +31,15 @@ Promote financial literacy and smarter decision-making through AI-powered sugges
 
 Technology	Purpose
 Node.js	Server-side backend runtime
+
 Express.js	Web framework for Node.js
+
 MySQL	Relational Database Management
+
 HTML/CSS/JavaScript	Frontend user interface
+
 NLP (Sentiment Analysis)	Analyze the emotional tone of financial advice
+
 
 Working Flow
 1. User Inputs Data
